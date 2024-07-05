@@ -5,7 +5,7 @@
 }
 
 header{
-    background: red;
+    background: rgb(233, 210, 95);
     color: white;
     height: 100vh;
     display: flex;
@@ -20,4 +20,20 @@ h1{
 h1:hover{
     transform:  translateX(50px);
     
+}
+
+main{
+    height: 100hv;
+    background: grey;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+@media(max-width:1000px){
+    header{
+        background: black;
+    }
 }
